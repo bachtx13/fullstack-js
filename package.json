@@ -2,7 +2,6 @@
   "type": "module",
   "name": "java01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,10 @@
     "moment": "^2.29.4",
     "random": "^4.1.0",
     "simple-git": "^3.21.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "description": ""
 }
