@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ex03.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>danh sách bài viết</h1>
+
+      <form action="" class="search">
+        <input type="search" placeholder="Nhập từ khóa tìm kiếm" />
+        <button>Tìm kiếm</button>
+        <select name="" id="" class="sort-by">
+          <option value="latest">Mới nhất</option>
+          <option value="oldest">Cũ nhất</option>
+        </select>
+        <button type="button" class="post-new">Đăng bài</button>
+      </form>
+      <!--END .search-->
+
+      <hr />
+
+      <div class="post-form"></div>
+
+      <!--End .sort-by-->
+
+      <div class="posts"></div>
+      <!--End .posts-->
+      <div class="paginate"></div>
+      <!-- <div class="paginate">
+        <span><a href="#">Prev</a></span>
+        <span class="active"><a href="#">1</a></span>
+        <span><a href="#">2</a></span>
+        <span><a href="#">3</a></span>
+        <span><a href="#">Next</a></span>
+      </div> -->
+    </div>
+    <!--End .container-->
+    <script type="module" src="./js/ex03.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.songs {
+  border: 1px solid green;
+  width: 300px;
+  margin: 30px auto;
+}
+
+.songs h2 {
+  display: list-item;
+  list-style: inside decimal-leading-zero;
+}

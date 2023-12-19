@@ -1,0 +1,133 @@
+button {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background: #e2e2ff;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  margin: 10px 0;
+  border-collapse: collapse;
+  width: 100%;
+  display: flow;
+}
+
+main {
+  width: 70%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  text-align: center;
+  border: 1px solid #272525;
+  vertical-align: middle;
+  padding: 6px;
+  font-weight: bold;
+}
+
+table th {
+  background: #1271be;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-wrapp {
+  display: block;
+  width: 100%;
+}
+
+.button-cart {
+  background: #1271be;
+  color: #fff;
+  border: none;
+  padding: 12px 0px;
+}
+
+.list-product button {
+  background: #1271be;
+  color: #fff;
+  border: none;
+  padding: 12px 0px;
+}
+/* 
+.total-title {
+  background: #1271be;
+  color: #fff;
+} */
+
+.total-title {
+  background: #1271be;
+  color: #fff;
+}
+
+.btn-wrapp {
+  display: block;
+  width: 100%;
+}
+
+.cart-table tbody {
+  /* display: block; */
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.cart-table tfoot {
+  /* display: block; */
+  max-height: 50px;
+  overflow-y: auto;
+}
+
+.list-product button:hover,
+button#update-cart-button:hover,
+button#clear-cart-button:hover {
+  background-color: #103d6f;
+}
+
+button.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+button.delete-button:hover {
+  background-color: #901b27;
+  color: #fff;
+  border: none;
+}
+
+hr {
+  margin: 29px 0;
+}
+
+div#empty-cart-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
