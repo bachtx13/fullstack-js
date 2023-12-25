@@ -21,7 +21,7 @@ const makecommit = (n) => {
   jsonfile.writeFile(FILE_PATH, data, () => {
     simplegit()
       .add(FILE_PATH)
-      .commit(DATE, { "--date": DATE }, makecommit.bind(this, --n));
+      .commit(DATE, { "--date": 'update'}, makecommit.bind(this, --n));
   });
 };
 makecommit(50);
